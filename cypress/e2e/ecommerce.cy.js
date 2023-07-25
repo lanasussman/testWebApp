@@ -22,7 +22,7 @@ describe('e-commerce website testing', () => {
         cy.on('window:alert', (alertText) => {
             // Perform your assertion on the alertText
             expect(alertText).to.equal('Checkout - Subtotal: $ 10.90')
-          })
+        })
     })
 
     it('Verify user can Add and Remove item from the cart', () => {
